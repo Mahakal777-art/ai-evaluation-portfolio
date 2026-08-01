@@ -1,0 +1,87 @@
+# Golden Trajectory 2
+## Evaluating Instruction Following
+
+### Objective
+
+Determine whether the model completely followed the user's instruction.
+
+---
+
+## User Prompt
+
+List five original songs by The Beatles.
+
+---
+
+## AI Response
+
+- Hey Jude
+- Let It Be
+- Yesterday
+- Imagine
+- Help!
+
+---
+
+## Golden Trajectory
+
+### Step 1 — Understand the Request
+
+The user asked for:
+
+- Five songs
+- Original compositions
+- By The Beatles
+
+---
+
+### Step 2 — Review Each Song
+
+Hey Jude
+
+✅ Original Beatles song
+
+Let It Be
+
+✅ Original Beatles song
+
+Yesterday
+
+✅ Original Beatles song
+
+Imagine
+
+❌ Written and released by John Lennon as a solo artist after The Beatles disbanded.
+
+Help!
+
+✅ Original Beatles song
+
+---
+
+### Step 3 — Evaluate Instruction Following
+
+One listed song does not satisfy the instruction.
+
+---
+
+## Final Verdict
+
+Instruction Not Fully Followed
+
+---
+
+## Root Cause
+
+The model confused a solo John Lennon song with a Beatles composition.
+
+---
+
+## Suggested Improvement
+
+Replace "Imagine" with another Beatles song such as:
+
+- Penny Lane
+- Eleanor Rigby
+- Come Together
+- Something
