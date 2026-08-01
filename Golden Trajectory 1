@@ -1,0 +1,95 @@
+# Golden Trajectory 1
+## Identifying a Factual Inaccuracy in an AI Response
+
+### Objective
+
+Determine whether an AI-generated response contains factual inaccuracies.
+
+---
+
+## User Prompt
+
+Tell me a bit about asbestos and if it is dangerous.
+
+---
+
+## AI Response
+
+Asbestos is a synthetic substance that was once widely used in building materials, insulation, brake pads, roofing, and fireproof products. It is dangerous because inhaling asbestos fibers can cause serious diseases such as mesothelioma, lung cancer, and asbestosis.
+
+---
+
+## Golden Trajectory
+
+### Step 1 — Understand the Question
+
+The user requests:
+
+- What asbestos is
+- Whether it is dangerous
+
+The response must correctly explain both.
+
+---
+
+### Step 2 — Extract Factual Claims
+
+Claim 1
+
+> Asbestos is a synthetic substance.
+
+Claim 2
+
+> It was widely used in insulation and construction materials.
+
+Claim 3
+
+> It causes mesothelioma, lung cancer and asbestosis.
+
+---
+
+### Step 3 — Verify Each Claim
+
+Claim 1
+
+❌ Incorrect
+
+Asbestos is a naturally occurring mineral, not a synthetic material.
+
+Claim 2
+
+✅ Correct
+
+Claim 3
+
+✅ Correct
+
+---
+
+### Step 4 — Determine Overall Rating
+
+Because one factual claim is incorrect, the response contains a factual inaccuracy.
+
+---
+
+## Final Verdict
+
+**Contains Inaccuracy**
+
+---
+
+## Root Cause
+
+The model incorrectly classified asbestos as synthetic instead of naturally occurring.
+
+---
+
+## Suggested Improvement
+
+Replace:
+
+"Asbestos is a synthetic substance."
+
+With:
+
+"Asbestos is a naturally occurring group of fibrous silicate minerals."
