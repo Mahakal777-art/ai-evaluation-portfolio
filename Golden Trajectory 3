@@ -1,0 +1,81 @@
+# Golden Trajectory 3
+## Comparing AI Responses for Quality
+
+### Objective
+
+Evaluate two AI-generated responses and determine which better answers the user's question.
+
+---
+
+## User Prompt
+
+Explain evaporation in simple language.
+
+---
+
+## Response A
+
+Evaporation occurs when liquid molecules gain enough energy to become gas molecules. Temperature, wind speed, and humidity influence the rate of evaporation.
+
+---
+
+## Response B
+
+Evaporation is when water slowly disappears because tiny water particles gain energy and move into the air as an invisible gas. You can see this happen when wet clothes dry outside. Warm weather, moving air, and low humidity make evaporation happen faster.
+
+---
+
+## Golden Trajectory
+
+### Step 1 — Understand the Audience
+
+The prompt requests a simple explanation.
+
+---
+
+### Step 2 — Compare Responses
+
+Response A
+
+- Scientifically correct
+- Uses technical wording
+- Less beginner-friendly
+
+Response B
+
+- Scientifically correct
+- Includes an everyday example
+- Uses simple language
+
+---
+
+### Step 3 — Score Responses
+
+| Criteria | Response A | Response B |
+|-----------|------------|------------|
+| Accuracy | 5/5 | 5/5 |
+| Clarity | 4/5 | 5/5 |
+| Simplicity | 3/5 | 5/5 |
+| Instruction Following | 4/5 | 5/5 |
+
+---
+
+## Final Verdict
+
+**Response B is preferred.**
+
+---
+
+## Reason
+
+Although both responses are factually correct, Response B better satisfies the user's request by providing a simple explanation with an easy-to-understand real-world example.
+
+---
+
+## Evaluation Dimensions
+
+- Accuracy
+- Clarity
+- Simplicity
+- Instruction Following
+- Helpfulness
