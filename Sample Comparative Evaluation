@@ -1,0 +1,36 @@
+# Sample Comparative Evaluation
+
+## User prompt
+
+Explain how to prepare a project status update for an executive audience in 5 bullet points.
+
+## Model A
+
+1. Provide current status.
+2. List completed work.
+3. List issues.
+4. Mention risks.
+5. State next steps.
+
+## Model B
+
+1. Lead with the overall status and business impact.
+2. Highlight only the most important completed outcomes.
+3. Quantify major risks and blockers.
+4. State decisions or support required from leadership.
+5. Close with next milestones and dates.
+
+## Evaluation
+
+Model A is acceptable but generic.
+
+Model B is stronger on executive relevance because it connects status to impact, decisions and milestones.
+
+## Key evaluator insight
+
+A good evaluator distinguishes between:
+
+- technically correct content
+- content optimized for the requested audience
+
+The judgment must be tied to the prompt, not personal preference.
