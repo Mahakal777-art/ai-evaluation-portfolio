@@ -1,0 +1,67 @@
+# 02 — Prompt Engineering Addendum
+
+This section documents reusable prompt patterns for evaluation and data-generation workflows.
+
+## Standard prompt design
+
+### Context
+
+Provide only information necessary for the task.
+
+### Task
+
+State one measurable objective.
+
+### Constraints
+
+Specify:
+
+- format
+- audience
+- allowed sources
+- prohibited behavior
+- length
+- success criteria
+
+### Evaluation hooks
+
+Require outputs that are easy to score.
+
+Example:
+
+```text
+Return:
+1. Claim list
+2. Evidence status for each claim
+3. Error category
+4. Final verdict
+5. Correction
+```
+
+## Recommended evaluator pattern
+
+```text
+You are an AI response evaluator.
+
+Task:
+Assess the response against the supplied user request.
+
+Score only these dimensions:
+- Accuracy
+- Instruction Following
+- Relevance
+- Clarity
+- Safety
+
+For each dimension provide:
+- Score: 1-5
+- Evidence
+- Short rationale
+
+Do not invent evidence that is not present in the response.
+Finish with an overall error category.
+```
+
+## Why this matters
+
+The portfolio should demonstrate not just prompt-writing ability, but the ability to create prompts that produce **observable, repeatable and scoreable outputs**.
