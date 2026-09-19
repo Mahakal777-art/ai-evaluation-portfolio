@@ -1,0 +1,34 @@
+# Model Evaluation Error Taxonomy
+
+## Major categories
+
+- Factual Error
+- Instruction Violation
+- Missing Requirement
+- Irrelevant Content
+- Unsupported Claim
+- Logical Inconsistency
+- Formatting Failure
+- Safety Failure
+- Ambiguity Not Resolved
+
+## Severity
+
+### Critical
+Could cause significant harm, materially mislead users, or invalidate the task.
+
+### Major
+Substantially reduces task usefulness.
+
+### Minor
+Localized defect with limited effect.
+
+## Recording standard
+
+Every labeled error should contain:
+
+- exact problematic span
+- category
+- severity
+- why it violates the rubric
+- corrected behavior
