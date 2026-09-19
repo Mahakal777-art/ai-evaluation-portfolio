@@ -1,0 +1,25 @@
+# Evidence Hierarchy
+
+For factual evaluation, prefer sources in roughly this order:
+
+1. Primary official documentation
+2. Official datasets or regulatory/public records
+3. Peer-reviewed research or recognized standards
+4. Reputable secondary reporting
+5. Community sources
+6. Unsourced model memory
+
+## Freshness rule
+
+For changing facts — prices, leadership, policies, schedules, software versions, current events — verify against current sources.
+
+## Evidence record
+
+```text
+Claim:
+Source:
+Publication / update date:
+Exact supporting fact:
+Evaluator label:
+Confidence:
+```
